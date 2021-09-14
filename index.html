@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container" style='background-color: plum;'>
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center" style='background-image: url("/images/bacteriacells3.jpg");'>
+        <h1><mark style='background-color: pink; color:purple'>Belly Button Biodiversity Dashboard</mark></h1>
+        <p><mark style='background-color: pink; color:purple'><b>Use the interactive charts below to explore the dataset</b></mark></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well" style='color:hotpink;'>
+          <h5><b>Test Subject ID No.:</b></h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary" style='background-color: pink;'>
+          <div class="panel-heading">
+            <h3 class="panel-title" style='color:lavenderblush'>Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body" style='color: blueviolet;'></div>
+        </div>
+      </div>
+      <div class="col-md-5" style='background-color:powderblue;'>
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" style='background-color: palegreen;'>
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="plots.js"></script>
+
+</body>
+
+</html>
