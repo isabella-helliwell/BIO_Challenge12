@@ -34,6 +34,7 @@
 ![newplot](https://user-images.githubusercontent.com/85843030/133278312-e2592c3d-11a3-48fb-9517-4030de15a188.png)
 
 ## 4.2 With formatting
+ The webpage can be accessed from https://isabella-helliwell.github.io/BIO_Challenge12/
 ![image](https://user-images.githubusercontent.com/85843030/133326357-ca2fdc55-7d15-4139-b730-ff53a19ff4a2.png)
 ![image](https://user-images.githubusercontent.com/85843030/133326429-880a2b21-d1a7-4864-95bf-ed433ec147dd.png)
 
